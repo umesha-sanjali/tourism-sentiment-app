@@ -5,7 +5,7 @@ from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 
 # ✅ Load geocoded data (file should be present in the same directory on GitHub)
-df = pd.read_csv(r"C:\Users\Sanjali\Desktop\Research Method\Geo_Reviews_With_Coordinates.csv")
+df = pd.read_csv("Geo_Reviews_With_Coordinates.csv")
 
 # ✅ Clean column formatting
 df.columns = df.columns.str.strip()
